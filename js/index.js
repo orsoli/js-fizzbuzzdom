@@ -13,3 +13,18 @@ const container = document.getElementById("container");
 // Create the variables
 const fizz = "Fizz";
 const buzz = "Buzz";
+
+//---Processing phase
+// Create forr loop to prepare the numbers
+for (i = 1; i <= 100; i++) {
+  //Condition for multiples of 3, 5 or both, print Fizz, Buzz or fizzbuzz instead of the number.
+  if (i % 15 === 0) {
+    console.log(fizz + buzz);
+  } else if (i % 5 === 0) {
+    console.log(buzz);
+  } else if (i % 3 === 0) {
+    console.log(fizz);
+  } else {
+    console.log(i);
+  }
+}
