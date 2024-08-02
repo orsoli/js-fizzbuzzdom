@@ -1,0 +1,16 @@
+/* Utils  */
+.nr-bg{
+    background-color: #1589B2;
+}
+
+.fizz-bg{
+    background-color: #07D6A0;
+}
+
+.buzz-bg{
+    background-color: #FFD166;
+}
+
+.fizzbuzz-bg{
+    background-color: #F0456F;    
+}
